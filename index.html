@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Workers Through Time</title>
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+<section class="intro">
+    <div class="container">
+        <h1>Workers Through Time</h1>
+        <div class="scroll-down"></div>
+    </div>
+</section>
+
+<section class="timeline">
+    <ul>
+        <li>
+            <div onclick="on('bakeshop')">
+                <time>1895</time>
+                The Bakeshop Act is passed, provisioning the maximum amount of time a bakeshop employee can work
+            </div>
+        </li>
+        <li>
+            <div onclick="on('bakeshop')">
+                <time>1905</time>
+                The Supreme Court hears the case of Joseph Lochner versus the State of New York on the matter of the provisions put in place by the Bakeshop Act
+            </div>
+        </li>
+        <li>
+            <div onclick="on('keating')">
+                <time>1916</time>
+                The Keating-Owen Child Labor Act is passed prohibiting companies who use child labor from taking part in
+                interstate commerce
+            </div>
+        </li>
+        <li>
+            <div onclick="on('wagner')">
+                <time>1935</time>
+                FDR passes the Wagner Act as part of the New Deal in order to bring the United States out of the Great Depression
+            </div>
+        </li>
+        <li>
+            <div onclick="on('FLSA')">
+                <time>1938</time>
+                The Fair Labor Standards Act is passed, greatly increasing worker's rights and regulating business
+                practices across the United States
+            </div>
+        </li>
+    </ul>
+    <div id="FLSA" class="overlay">
+        <a onclick="off('FLSA')" class="close-button"></a>
+        <div class="overlay-container">
+            <h1>FLSA</h1>
+            <p>
+                The Fair Labor Standards Act was signed into law by President Franklin Delano Roosevelt in 1938 as part of the new deal.
+                The law provided several key protections for American workers. The regulations were able to be enforced by the federal government since they applied to
+                employees of companies which carried out business across state lines, which is out of the jurisdiction of state governments.
+                <br><br>
+                The main provisions put in place for companies introduced by the FLSA were a federal minimum wage, mandatory "time-and-a-half" overtime
+                for employees who work over 40 hours a week, and child labor regulations.
+                <br><br>
+                The fact that the act passed and was actually enforced by the government made life better for workers across the country as well as signifying
+                a new age in the United States where the federal government would take a larger, more active, role in regulating the economy and the workplace.
+            </p>
+        </div>
+    </div>
+    <div id="wagner" class="overlay">
+        <a onclick="off('wagner')" class="close-button"></a>
+        <div class="overlay-container">
+            <h1>The Wagner Act</h1>
+            <p>
+                As part of his New Deal President Roosevelt signs the National Labor Relations Act, or Wagner Act, into law.
+                The law guaranteed workers the right to unionize. This included not only the right to form unions but the engage in collective negotiations and to strike.
+                <br><br>
+                The New Deal ushered in an era of hands-on regulations by the Federal Government on business in favor of employees.
+            </p>
+        </div>
+    </div>
+    <div id="bakeshop" class="overlay">
+        <a onclick="off('bakeshop')" class="close-button"></a>
+        <div class="overlay-container">
+            <h1>The Bakeshop Act & Lochner v. New York</h1>
+            <p>
+                The Bakeshop Act was passed in 1895 and was an early attempt at regulating business practices across the country and instituting fair working conditions.
+                The law set the maximum number of hours an employee in a bakeshop could work (10 hours a day/60 hours a week).
+                <br><br>
+                In 1905 the Supreme Court rules in favor of the plaintiff, Joseph Lochner, in the historic case of Lochner v. New York.
+                The court ruled the enforcement of the Bakeshop Act unconstitutional under the 14th Amendment. This case set a precedent for
+                courts using the 14th Amendments to kill regulatory legislation.
+            </p>
+        </div>
+    </div>
+    <div id="keating" class="overlay">
+        <a onclick="off('keating')" class="close-button"></a>
+        <div class="overlay-container">
+            <h1>The Keating-Owen Act</h1>
+            <p>
+                The Keating-Owen Child Labor Act was signed into law in 1916 by President Woodrow Wilson. It's intent was to stop the gilded age practice of using
+                child labor in order to lower payroll costs. The law was quashed in 1918 by the United States Supreme Court as unconstitutional under the
+                14th Amendment, continuing the trend started in the case of Lochner v. New York of using the 14th Amendment to kill legislation regulating
+                businesses or enacting worker's rights.
+            </p>
+        </div>
+    </div>
+</section>
+<script src="scripts/index.js"></script>
+<script src="scripts/overlay.js"></script>
+</body>
+</html>
