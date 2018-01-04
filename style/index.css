@@ -197,7 +197,7 @@ time {
     padding: 0 5% 10px;
     width: 100%;
     height: 90%;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .overlay-container h1, p {
