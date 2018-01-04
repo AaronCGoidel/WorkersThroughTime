@@ -20,6 +20,40 @@ body {
     height: 100vh;
 }
 
+.definition {
+    min-height: 25vh;
+    background-color: #F45B69;
+}
+
+.definition h3 {
+    padding-bottom: 10px;
+}
+
+.center {
+    text-align: center;
+    height: inherit;
+    padding: 20px;
+    margin: 0;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
 .container {
     padding-top: 50vh;
     margin: 0 auto;
@@ -55,7 +89,7 @@ h1 {
     width: 6px;
     margin: 0 auto;
     padding-top: 50px;
-    background: rgba(1, 2, 3, .2);
+    background: #bdbdbd;
     cursor: pointer;
 }
 
@@ -200,7 +234,7 @@ time {
     overflow: auto;
 }
 
-.overlay-container h1, p {
+.overlay-container h1, .overlay-container p {
     margin-bottom: 50px;
     text-align: center;
 }
