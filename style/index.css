@@ -217,7 +217,6 @@ time {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .overlay {
     position: fixed;
-    width: 100%;
     height: 100%;
     top: 0;
     left: 0;
@@ -231,7 +230,6 @@ time {
 
 .overlay-container {
     padding: 0 5% 10px;
-    width: 100%;
     height: 90%;
     overflow: auto;
 }
